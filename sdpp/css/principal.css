@@ -1,0 +1,85 @@
+body {
+  font-family: Helvetica, arial;
+  font-size: 18px;
+  color: #ffffff;
+  position: relative;
+  padding-bottom: 58px;
+  min-height: 100vh;
+  letter-spacing: 1px;
+}
+.info-box {
+    background-color: #363636;
+    display: flex;
+    margin-bottom: map-get(spacers, 3);
+    min-height: 80px;
+    padding: .5rem;
+    position: relative;
+    width: 100%;
+}
+    .progress {
+      background-color: rgba(black, .125);
+      height: 2px;
+      margin: 5px 0;
+    }
+    .progress-bar {
+        background-color: white;
+      }
+      .info-box mb-3{
+         box-sizing: border-box;
+      }
+     
+    .info-box-icon {
+      background-color: #04AA6D;
+      align-items: center;
+      display: flex;
+      font-size: 1.875rem;
+      justify-content: center;
+      text-align: center;
+      width: 70px;
+    }
+  
+    .info-box-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      line-height: 1.8;
+      padding: 0 10px;
+      overflow: hidden;
+    }
+  
+    .info-box-number {
+      display: block;
+      margin-top: .25rem;
+      font-weight: font-weight-bold;
+    }
+
+    .info-box-text {
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  
+    .info-box-more {
+      display: block;
+    }
+  
+    .progress-description {
+      margin: 0;
+    }
+  
+    .card-header {
+      background-color: transparent;
+      border-bottom: 1px solid rgba(0,0,0,.125);
+      padding: 0.75rem 1.25rem;
+      position: relative;
+      border-top-left-radius: 0.25rem;
+      border-top-right-radius: 0.25rem;
+    }
+    .card-title {
+      float: left;
+      font-size: 1.1rem;
+      font-weight: 400;
+      margin: 0;
+  }
+  
